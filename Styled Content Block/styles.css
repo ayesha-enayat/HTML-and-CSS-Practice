@@ -1,0 +1,56 @@
+@font-face{
+    src: url(fonts/Barlow-BoldItalic.ttf);
+    font-family: barlow;
+}
+
+h1{
+    text-align: center;
+    font-family:barlow;
+    text-shadow: 2px 2px 2px coral ;
+   
+
+
+}
+.boxes{
+    display: flex;
+}
+
+/* Common styling for all content blocks */
+.content-block {
+    border: 2px solid #333;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 25px;
+
+     /* Set display to inline-block */
+}
+
+/* Styling for Block 1 */
+#block1 {
+    color: hsl(120, 100%, 50%);
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+/* Styling for Block 2 */
+#block2 {
+    color: rgb(255, 0, 0);
+    font-family: 'Times New Roman', serif;
+    font-size: 18px;
+    font-style: italic;
+    text-align: justify;
+    background-color: #e0e0e0;
+}
+
+/* Styling for Block 3 */
+#block3 {
+    color: #4CAF50;
+    font-family: 'Verdana', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: #d0d0d0;
+}
